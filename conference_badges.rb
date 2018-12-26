@@ -1,5 +1,5 @@
 def badge_maker(name)
-  badge = "Hello, my name is #{name}."
+  badge = "Hello, my name is #{name}."  
 end
 
 def batch_badge_creator(attendees) 
@@ -16,7 +16,7 @@ def assign_rooms(attendees)
    room_assignments.push("Hello, #{name}! You'll be assigned to room #{index+1}!")
 end
 room_assignments
-end
+end 
 
 def printer(attendees)
  batch_badge_creator(attendees).each {|badge| puts badge}
